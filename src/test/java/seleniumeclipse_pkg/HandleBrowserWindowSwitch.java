@@ -17,7 +17,7 @@ public class HandleBrowserWindowSwitch {
             driver = new ChromeDriver();
         }else if (browser.toUpperCase().equals("EDGE")) {
             System.setProperty("webdriver.edge.driver", "C:\\Users\\morgan.nwaiku\\Downloads\\app\\web Drivers\\Edge driver\\msedgedriver.exe");
-            driver = new ChromeDriver();
+            driver = new EdgeDriver();
         }
                     //Url of the application
             driver.get("https://demo.automationtesting.in/Windows.html");
